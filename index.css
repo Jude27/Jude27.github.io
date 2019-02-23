@@ -1,8 +1,8 @@
-#newpostTitle {
+.newpostTitle {
     width: 300px;
     height: 30px;
     border: 2px solid navy;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 #newpostText {
@@ -10,10 +10,6 @@
     height: 250px;
     border: 2px solid navy;
     margin-bottom: 10px
-}
-
-#parts {
-    font-size: 20;
 }
 
 #heather {
@@ -37,4 +33,5 @@
     height: 100px;
     width: 700px;
     border: 1px solid black;
+    margin-top: 10px;
 }
