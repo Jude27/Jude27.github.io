@@ -20,8 +20,8 @@ $('#submit').on('click', (event) => {
 database.ref("posts").once('value').then(data => {
     data.forEach(element => {
         $('body').append(`
-        <div>
-          <h2 class="oldposttitle">${element.child('title').val()}</h2>
+        <div class="oldposts">
+          <h2>${element.child('title').val()}</h2>
           <p>${element.child('text').val()}<p>
         </div>  
       `);

@@ -32,6 +32,9 @@
 }
 
 .oldposts {
-    font-size: 25px;
-    font-style: normal
+    font-size: 15px;
+    font-style: normal;
+    height: 100px;
+    width: 700px;
+    border: 1px solid black;
 }
