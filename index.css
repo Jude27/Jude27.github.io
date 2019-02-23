@@ -1,0 +1,37 @@
+#newpostTitle {
+    width: 300px;
+    height: 30px;
+    border: 2px solid navy;
+    margin-bottom: 10px
+}
+
+#newpostText {
+    width: 700px;
+    height: 250px;
+    border: 2px solid navy;
+    margin-bottom: 10px
+}
+
+#parts {
+    font-size: 20;
+}
+
+#heather {
+    font-size: 40;
+    font-style: italic;
+    color: rebeccapurple;
+    position: center;
+}
+
+.etwas {
+    background-color: rgb(247, 232, 168);
+}
+
+.search {
+    margin-left: 500px
+}
+
+.oldposts {
+    font-size: 25px;
+    font-style: normal
+}

@@ -6,10 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel=stylesheet href="index.css">
 </head>
 
-<body>
-    Hello Valami
+<body class="etwas">
+
+    <h1 id="heather">Hátizsáker</h1>
+
+    <form>
+        <div class="search">
+            <input type="text" id="search">
+            <button id="search">Search</button>
+        </div>
+    </form>
+
+    <form>
+
+        <div>
+            <label id="parts">Title</label>
+            <input type="text" id="newpostTitle">
+        </div>
+
+        <div>
+            <label id="parts">Post</label>
+            <textarea id="newpostText"></textarea>
+        </div>
+
+        <div>
+            <button id="submit">submit</button>
+        </div>
+
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDm9wSGfVaeo6I8GJEpXE-zL1jcGyRtLC0",
+            authDomain: "blogprojj-c74d8.firebaseapp.com",
+            databaseURL: "https://blogprojj-c74d8.firebaseio.com",
+            projectId: "blogprojj-c74d8",
+            storageBucket: "blogprojj-c74d8.appspot.com",
+            messagingSenderId: "329933623716"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <script src="index.js"></script>
+
 </body>
 
 </html>
